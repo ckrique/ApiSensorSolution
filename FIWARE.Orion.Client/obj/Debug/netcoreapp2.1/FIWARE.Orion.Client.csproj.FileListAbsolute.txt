@@ -1,0 +1,8 @@
+C:\Users\Dickson\source\repos\ApiSensor\FIWARE.Orion.Client\bin\Debug\netcoreapp2.1\FIWARE.Orion.Client.deps.json
+C:\Users\Dickson\source\repos\ApiSensor\FIWARE.Orion.Client\bin\Debug\netcoreapp2.1\FIWARE.Orion.Client.dll
+C:\Users\Dickson\source\repos\ApiSensor\FIWARE.Orion.Client\obj\Debug\netcoreapp2.1\FIWARE.Orion.Client.csproj.CoreCompileInputs.cache
+C:\Users\Dickson\source\repos\ApiSensor\FIWARE.Orion.Client\obj\Debug\netcoreapp2.1\FIWARE.Orion.Client.AssemblyInfoInputs.cache
+C:\Users\Dickson\source\repos\ApiSensor\FIWARE.Orion.Client\obj\Debug\netcoreapp2.1\FIWARE.Orion.Client.AssemblyInfo.cs
+C:\Users\Dickson\source\repos\ApiSensor\FIWARE.Orion.Client\bin\Debug\netcoreapp2.1\FIWARE.Orion.Client.pdb
+C:\Users\Dickson\source\repos\ApiSensor\FIWARE.Orion.Client\obj\Debug\netcoreapp2.1\FIWARE.Orion.Client.dll
+C:\Users\Dickson\source\repos\ApiSensor\FIWARE.Orion.Client\obj\Debug\netcoreapp2.1\FIWARE.Orion.Client.pdb

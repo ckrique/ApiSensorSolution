@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1913
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiSensor", "ApiSensor\ApiSensor.csproj", "{6492E8A7-2169-4AAD-A055-50A38B228A17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIWARE.OrionClient", "FIWARE.OrionClient\FIWARE.OrionClient.csproj", "{647C47FA-0E65-4454-B02B-D44F2E9B4667}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6492E8A7-2169-4AAD-A055-50A38B228A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6492E8A7-2169-4AAD-A055-50A38B228A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6492E8A7-2169-4AAD-A055-50A38B228A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6492E8A7-2169-4AAD-A055-50A38B228A17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{647C47FA-0E65-4454-B02B-D44F2E9B4667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{647C47FA-0E65-4454-B02B-D44F2E9B4667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{647C47FA-0E65-4454-B02B-D44F2E9B4667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{647C47FA-0E65-4454-B02B-D44F2E9B4667}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7681F7EB-38DB-491F-9BAA-3904A677EDB9}
+	EndGlobalSection
+EndGlobal

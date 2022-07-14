@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "beca944beb18f4826bcc8e41c6f3237768910942"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "FIWARE.Orion.Client/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.8"
+        },
+        "runtime": {
+          "FIWARE.Orion.Client.dll": {}
+        }
+      },
+      "Newtonsoft.Json/6.0.8": {
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.8.18111"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FIWARE.Orion.Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/6.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7ut47NDedTW19EbL0JpFDYUP62fcuz27hJrehCDNajdCS5NtqL+E39+7Um3OkNc2wl2ym7K8Ln5eNuLus6mVGQ==",
+      "path": "newtonsoft.json/6.0.8",
+      "hashPath": "newtonsoft.json.6.0.8.nupkg.sha512"
+    }
+  }
+}
