@@ -151,8 +151,7 @@ namespace FIWARE.OrionClient.REST
                 string body = JsonConvert.SerializeObject(rootDevices, jsonSettings);
                 var data = new StringContent(body, Encoding.UTF8, "application/json");
                 var url = "http://localhost:4041/iot/devices";
-
-
+                
                 client.DefaultRequestHeaders.Add("fiware-service", "openiot");
                 client.DefaultRequestHeaders.Add("fiware-servicepath", "/");
 
@@ -160,11 +159,6 @@ namespace FIWARE.OrionClient.REST
 
                 if (clientResponse.IsSuccessStatusCode)
                 {
-                    //var content = await clientResponse.Content.ReadAsStringAsync();
-
-                    //T genericResponse = JsonConvert.DeserializeObject<T>(content);
-                    //return genericResponse.ToString();
-
                     string result = clientResponse.Content.ReadAsStringAsync().Result;
                     return result;
                 }
