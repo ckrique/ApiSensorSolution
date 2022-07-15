@@ -137,21 +137,14 @@ namespace FIWARE.OrionClient.REST
             sensorDevice.device_id = "sensor001";
             sensorDevice.entity_name = "urn:ngsi-ld:sensor:001";
             sensorDevice.entity_type = "O2Sat";
-            //sensorDevice.timezone = "America/Sao_Paulo";
 
             FIWARE.OrionClient.IoTAgent.Attribute attribute = new FIWARE.OrionClient.IoTAgent.Attribute();
             attribute.object_id = "s";
             attribute.name = "O2Saturation";
             attribute.type = "float";
-
-            //StaticAttribute staticAttribute = new StaticAttribute();
-            //staticAttribute.name = "";
-            //staticAttribute.type = "";
-            //staticAttribute.value = "";
-
+            
             sensorDevice.attributes.Add(attribute);
             rootDevices.devices.Add(sensorDevice);
-
 
             using (var client = new HttpClient())
             {
