@@ -182,11 +182,6 @@ namespace FIWARE.OrionClient.REST
 
                 if (clientResponse.IsSuccessStatusCode)
                 {
-                    //var content = await clientResponse.Content.ReadAsStringAsync();
-
-                    //T genericResponse = JsonConvert.DeserializeObject<T>(content);
-                    //return genericResponse.ToString();
-
                     string result = clientResponse.Content.ReadAsStringAsync().Result;
                     return result;
                 }
